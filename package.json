@@ -34,9 +34,7 @@
     "async": "^1.5.0"
   },
   "scripts": {
-    "install": "node package/oracledbinstall.js",
-    "test": "mocha --opts test/opts/mocha.opts",
-    "posttest": "node test/opts/version.js"
+    "install": "node package/oracledbinstall.js"
   },
   "engines": {
     "node": ">=4"
